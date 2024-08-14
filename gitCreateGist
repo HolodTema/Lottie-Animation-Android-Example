@@ -1,0 +1,8 @@
+#!/bin/bash
+git init
+git branch -m main
+git remote add origin $1
+git add .
+git commit -m "Initial commit of Gist!"
+git push origin main
+echo Gist pushed!
